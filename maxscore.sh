@@ -8,8 +8,8 @@ scores=()
 echo "Enter 5 scores:"
 
 # Read first score & assign as temp max
-read -r scores[0]
-max=${scores[0]}
+read -r scores["0"]
+max=${scores["0"]}
 
 # Read remaining scores and find max
 for ((i=1; i<5; i++)); do
